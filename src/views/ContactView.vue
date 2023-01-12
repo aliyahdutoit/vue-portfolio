@@ -1,38 +1,30 @@
 <template>
-    <div class="container">
-
-        <div class="row">
       
-      <div class="col">
-      
-        <h3 id="contact">if you liked what you saw, please do not hesitate to
-          <br id="contact-me"><span id="contactme">CONTACT ME!</span></h3>
-      
-      </div>
-      
+  
+  <h3 id="contact">if you liked what you saw, please do not hesitate to
+    <br id="contact-me"><span id="contactme">CONTACT ME!</span></h3>
+    
+    
+    
+    
+    
+    
+       <div class="social">
+         <a href="https://www.instagram.com/xx.aliyahh.xx?r=nametag" id="social-link"><i class="fa-brands fa-instagram"></i>Instagram</a>
+         <br><a href="#" id="social-link"><i class="fa-brands fa-slack"></i>Slack</a>
+         <br><a href="https://twitter.com/golden_ghoull?s=21&t=XF4X7Qtb2OF-AQkjicMGug" id="social-link"><i class="fa-brands fa-twitter"></i>Twitter</a>
+         <br><a href="https://github.com/aliyahdutoit" id="social-link"><i class="fa-brands fa-github"></i>Github</a>
         </div>
-      
-        <div class="row">
-          <div class="col">
-      
-       
-          <br><i class="fa-solid fa-phone"></i> +27 61 440 2813
-          <br><i class="fa-solid fa-envelope"></i>  aliyah.dutoit@gmail.com
-          <br><i class="fa-solid fa-location-dot"></i> Cape Town, South Africa
-          <br>
-          <br>
-          <div class="social">
-            <a href="https://www.instagram.com/xx.aliyahh.xx?r=nametag" id="social-link"><i class="fa-brands fa-instagram"></i>Instagram</a>
-            <br><a href="#" id="social-link"><i class="fa-brands fa-slack"></i>Slack</a>
-            <br><a href="https://twitter.com/golden_ghoull?s=21&t=XF4X7Qtb2OF-AQkjicMGug" id="social-link"><i class="fa-brands fa-twitter"></i>Twitter</a>
-            <br><a href="https://github.com/aliyahdutoit" id="social-link"><i class="fa-brands fa-github"></i>Github</a>
-            </div>
-      
-          </div>
-          <!--Contact Form section-->
-          <div class="col">
+        
+        <br><i class="fa-solid fa-phone"></i> +27 61 440 2813
+        <br><i class="fa-solid fa-envelope"></i>  aliyah.dutoit@gmail.com
+        <br><i class="fa-solid fa-location-dot"></i> Cape Town, South Africa
+        <br>
+        <br>
+        <!--Contact Form section-->
+        <div id="form_">
           
-        <form action="https://formspree.io/f/xdojpryw" method="POST" id="form">
+        <form class="align-self-center" action="https://formspree.io/f/xdojpryw" method="POST" id="form">
       
           <label for="fname" id="labels">Your Name</label>
           <input type="text" id="fname"  name="firstname" placeholder="Your name..">
@@ -46,20 +38,18 @@
           <label for="message" id="labels">Message</label>
           <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" id="button" value="Submit">
+          <input type="submit" id="button" value="Submit"  onclick="myFunction()">
       
         </form>
-      
-          </div>
-        </div>
       </div>
 </template>
 
 <script>
-    export default {
-        
+
+    export default  {
+
     }
-</script>
+    </script>
 
 <style>
 /*Contact info*/
@@ -80,8 +70,10 @@
     color: #531063;
     font-weight: bold;
     font-size: 20px;
-    padding: 25px;
+    padding: 20px;
   }
+
+
   /*Contact Form*/
   /* Style inputs with type="text", select elements and textareas */
   input[type=text], select, textarea {
@@ -129,7 +121,7 @@
   
   #form {
     padding-left: 0px;
-    margin: auto;
+    margin-bottom: 40px;
     /* float: right; */
   }
   
@@ -138,4 +130,8 @@
     padding-left: 40px;
   }
   
+#form_ {
+  padding-left: 585px;
+}
+
 </style>

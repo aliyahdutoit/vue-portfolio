@@ -37,7 +37,7 @@ export default {
 
 #nav a {
   font-weight: bold;
-  color: #ffff;
+  color: #E4B7E5;
 }
 
 </style>
