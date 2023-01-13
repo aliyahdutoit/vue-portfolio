@@ -22,4 +22,7 @@ background-color: purple;
 .home {
   padding: 300px;
 }
+h1 {
+  font-weight: bolder;
+}
 </style>

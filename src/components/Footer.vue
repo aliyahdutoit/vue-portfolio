@@ -1,6 +1,6 @@
 <template>
 <footer>
-  <h3>Liked my portfolio? 
+  <h3>Like my portfolio? 
     Contact me!</h3>
     <p>
       <br>+27 61 440 2813

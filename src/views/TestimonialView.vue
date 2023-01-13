@@ -1,7 +1,6 @@
 <template>
 <h1>Testimonials</h1>
-    <p class="text-dark">jscvbjzcb[SG Jsj b</p>
-   <card class="d-flex justify-content-between">
+   <card class="d-flex justify-content-evenly" id="card-container">
     <div v-for="(testimonial, id) in testimonials" :key="id" class="card" style="width: 18rem;">
         <img id="index" :src="testimonial.img" class="card-img-top" alt="...">
         <div class="card-body">
@@ -34,7 +33,7 @@
       </div>
    </card>
 </template>
-{{testimonial.contact}}
+
 <script>
     export default {
        data(){
@@ -56,7 +55,7 @@
                     {
                     id: 3,
                     name:'Seaba Mafestire',
-                    img:'https://i.postimg.cc/GtpBxPW1/seaba.jpg',
+                    img:'https://i.postimg.cc/T3FjCYjs/seaba.jpg',
                     quote:'Aliyah has a lovely personality that makes it easy to engage and work with her, she follows rules and always gets her work done.'
                     },
                     {
@@ -94,7 +93,7 @@
     color: #b09cd1;
   }
   
-  .card-container {
+  #card-container {
     display:flex; 
     flex-wrap: wrap; 
     padding: 90px; 
@@ -102,7 +101,8 @@
     justify-content: space-between; 
     align-content: center; 
     column-gap: 100px; 
-    column-gap: 50px
+    row-gap: 20px;
+    margin-right: 10px;
   }
   
   #card-look {
