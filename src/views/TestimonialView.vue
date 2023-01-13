@@ -113,5 +113,8 @@
   #card-image {
     height: 300px;
   }
+  h1 {
+    font-weight: bolder;
+  }
 </style> 
    

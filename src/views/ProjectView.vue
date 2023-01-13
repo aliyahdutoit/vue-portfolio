@@ -102,5 +102,7 @@
 </script>
 
 <style scoped>
-
+h1 {
+    font-weight: bolder;
+  }
 </style>

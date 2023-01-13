@@ -39,5 +39,5 @@ export default {
   font-weight: bold;
   color: #E4B7E5;
 }
-
+ 
 </style>

@@ -52,6 +52,9 @@
     </script>
 
 <style>
+h1 {
+  font-weight: bolder;
+}
 /*Contact info*/
 
 #contact {

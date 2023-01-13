@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col" id="aboutme">
          <img src="https://i.postimg.cc/Y9FsbFBh/about-me.jpg" alt="..." class="img-thumbnail">
-         <span id="aboutmesub">I am a Learner at Life Choices Academy in Cape Town, South Africa.</span>
+         <span id="aboutmesub">I am an aspiring front-end developer in Cape Town, South Africa.</span>
          <br>
          <br><span id="aboutcontent"> I am a creative, hard-working person who is not afraid of a challenge. I enjoy solving
           problems and working with others in group projects. On, occasion, I enjoy leading group projects, because 
@@ -15,7 +15,7 @@
         <div class="col" id="workexp">
 
 
-      <h4>hobbies and interests</h4>
+      <h4>Hobbies and Interests</h4>
       <ul>
         <li>violin</li>
         <li>cats</li>
@@ -44,6 +44,20 @@
 </script>
 
 <style>
+h1 {
+  font-weight: bolder;
+}
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin-bottom: 20px;
+}
 #about {
   padding-left: 344px; 
   font-size: 100px; 
@@ -92,5 +106,8 @@
 
 #workexplist {
   padding: 45px;
+}
+li {
+  text-decoration: none;
 }
 </style>
