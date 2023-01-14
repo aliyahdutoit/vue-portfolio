@@ -1,0 +1,25 @@
+[debug] [2023-01-14T11:47:14.037Z] ----------------------------------------------------------------------
+[debug] [2023-01-14T11:47:14.040Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-14T11:47:14.040Z] CLI Version:   11.20.0
+[debug] [2023-01-14T11:47:14.041Z] Platform:      win32
+[debug] [2023-01-14T11:47:14.041Z] Node Version:  v16.17.1
+[debug] [2023-01-14T11:47:14.042Z] Time:          Sat Jan 14 2023 13:47:14 GMT+0200 (South Africa Standard Time)
+[debug] [2023-01-14T11:47:14.042Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-14T11:47:14.122Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-14T11:47:14.123Z] > authorizing via signed-in user (aliyah.dutoit@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\this-is-aliyah
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

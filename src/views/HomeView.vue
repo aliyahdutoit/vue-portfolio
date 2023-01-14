@@ -1,8 +1,4 @@
 <template>
-<!-- <div class="home">
-  <h1>Aliyah du Toit</h1>
-  <h3>Welcome to my Website</h3>
-</div> -->
 <BackgroundImage/>
 </template>
 <script>

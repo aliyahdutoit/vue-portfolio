@@ -5,33 +5,13 @@
             <img id="index" :src="project.img" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-dark">{{project.name}}</h5>
-              <p class="card-text">{{project.quote}}</p>
-              <a href="#" class="btn btn-primary">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  View Details
-                </button>
-                
-                <!-- Modal -->
-                <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">{{project.name}}</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                       
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div></a>
-            </div>
-          </div>
-       </card>
+              <p class="card-text">
+                <br><a href="{{ project.github }}" class="projectlinks">Github</a>
+               <br><a href="{{ project.netlify }}" class="projectlinks">Netlify</a>
+              </p>
+                </div>
+               </div>
+           </card>
     </template>
 
 <script>
@@ -104,5 +84,29 @@
 <style scoped>
 h1 {
     font-weight: bolder;
+  }
+  #card-container {
+    display:flex; 
+    flex-wrap: wrap; 
+    padding: 90px; 
+    border-spacing: 50px; 
+    justify-content: space-between; 
+    align-content: center; 
+    column-gap: 100px; 
+    row-gap: 20px;
+    margin-right: 10px;
+  }
+  
+  #card-look {
+    height: 400px; 
+    width: 200px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
+  }
+  .projectlinks{
+    text-decoration: none;
+    color: black;
+  }
+  .projectlinks a {
+    color: #63458A;
   }
 </style>

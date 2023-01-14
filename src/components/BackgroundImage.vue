@@ -20,6 +20,13 @@ import AOS from "aos";
 
 <style>
 .home {
-    min-height: 58vh;
+    min-height: 50vh;
+}
+h1 {
+    font-size: 100px !important;
+    font-weight: bolder !important;
+}
+h3 {
+    font-weight: bold !important;
 }
 </style>

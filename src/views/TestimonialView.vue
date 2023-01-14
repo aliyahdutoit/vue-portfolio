@@ -2,33 +2,10 @@
 <h1>Testimonials</h1>
    <card class="d-flex justify-content-evenly" id="card-container">
     <div v-for="(testimonial, id) in testimonials" :key="id" class="card" style="width: 18rem;">
-        <img id="index" :src="testimonial.img" class="card-img-top" alt="...">
+        <img id="index" :src="testimonial.img" class="card-img-top img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title text-dark">{{testimonial.name}}</h5>
-          <p class="card-text">{{testimonial.quote}}</p>
-          <a href="#" class="btn btn-primary">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Contact
-            </button>
-            
-            <!-- Modal -->
-            <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">{{testimonial.id}}</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                   {{ testimonial.contact }}
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div></a>
+          <p class="card-text text-dark">{{testimonial.quote}}</p>
         </div>
       </div>
    </card>
@@ -49,7 +26,7 @@
                     {
                     id: 2,
                     name:'Ryan Thomas',
-                    img:'https://i.postimg.cc/7LykkHYC/ryan-thomas.jpg',
+                    img:'https://i.postimg.cc/yYFfFhm5/ryan-Thomas.jpg',
                     quote:'Aliyah is a great student and a fast learner.One of her greatest traits is asking the same question in multiple different ways in order to make sure she understands the task at hand. She is also a really good team player and always tries to assist her peers. She is shy, but once engaged into conversation with, her bubbly personality truly shows.'
                     },
                     {

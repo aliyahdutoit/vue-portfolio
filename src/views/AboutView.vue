@@ -9,7 +9,8 @@
          <br>
          <br><span id="aboutcontent"> I am a creative, hard-working person who is not afraid of a challenge. I enjoy solving
           problems and working with others in group projects. On, occasion, I enjoy leading group projects, because 
-          i feel that i possess the necessary leadership qualities needed to produce excellent work.</span>
+          i feel that i possess the necessary leadership qualities needed to produce excellent work. 
+          My dedicated nature and effective, enthusiastic and positive personality allows for the best quality of work to be produced.</span>
         </div>
       
         <div class="col" id="workexp">
@@ -25,6 +26,10 @@
         <li>writing</li>
         <li>traveling</li>
         <li>psychology</li>
+        <li>music</li>
+        <li>photography</li>
+        <li>movies</li>
+        <li>sewing</li>
     
       </ul>
     </div>
@@ -86,6 +91,7 @@ li {
 
 #aboutcontent {
   font-size: 20px;
+  padding-bottom: 20px !important;
 }
 #aboutme, #workexp {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .67);
